@@ -48,7 +48,8 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     ksp(libs.hilt.android.compiler)
     implementation(libs.kotlinx.serialization.json)
-
+    implementation(platform(libs.coil.bom))
+    implementation(libs.bundles.coil.compose)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
